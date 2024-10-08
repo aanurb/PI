@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1490px;
+    height: 100px;
+    padding: 3%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(4, 8, 255);
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: rgb(38, 4, 255);
+    border-radius: 30px;
+    transition: 0.6s;
+
+
+
+}
+
+nav ul li a:hover {
+    background-color: aliceblue;
+
+}
+
+.body {
+    background: black;
+}
+
+.introducao {
+
+    background-color: white;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-indent: 60px;
+
+
+}
+
+.titulo {
+    color: rgb(25, 206, 88);
+    font-style: unset;
+    background-color: white;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-indent: 60px;
+    font-size: 20px;
+    text-align: left;
+
+
+}
+.introducao2 {
+
+    background-color: white;
+    color: black;
+    font-style: italic;
+    
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-indent: 40px;
+   
+
+
+}
+.lista{
+    background-color: white;
+    color: rgb(25, 0, 255);
+    font-style: italic;
+    
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    text-indent: 40px;
+   
+}
